@@ -513,9 +513,13 @@
     #define DEFAULT_Kd_LIST { 114.00, 112.0 }
   #else
     // Vellemann K8200 Extruder - calculated with PID Autotune and tested
-    #define DEFAULT_Kp 11.88
-    #define DEFAULT_Ki 1.57
-    #define DEFAULT_Kd 22.51
+    // #define DEFAULT_Kp 11.88
+    // #define DEFAULT_Ki 1.57
+    // #define DEFAULT_Kd 22.51
+
+    #define DEFAULT_Kp 29.34
+    #define DEFAULT_Ki 3.20
+    #define DEFAULT_Kd 67.28
   #endif
 #endif // PIDTEMP
 
@@ -557,7 +561,6 @@
   #define DEFAULT_bedKp 341.88
   #define DEFAULT_bedKi 25.32
   #define DEFAULT_bedKd 1153.89
-
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
   // #define DEFAULT_bedKp 10.00
